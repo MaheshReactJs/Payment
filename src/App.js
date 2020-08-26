@@ -57,6 +57,13 @@ const CheckoutForm = ({ success }) => {
         Payment
       </button>
       </div>
+
+      <div className="text-center mt-5"
+ >    <button type="submit" class="btn btn-primary"  disabled={!stripe} >
+        Payment
+      </button>
+      </div>
+      
     </form>
   );
 };
